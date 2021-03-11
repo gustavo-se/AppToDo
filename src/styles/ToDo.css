@@ -1,0 +1,10 @@
+p {
+  display: inline;
+}
+div {
+  margin: 10px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
