@@ -60,15 +60,18 @@ const Form = () => {
   }, [status, todo]);
   return (
     <>
-      <form>
+      <form class="d-flex my-5">
         <input
           value={tarea}
           type="text"
           placeholder="Que vas a hacer"
           onChange={recibirTarea}
+          class="form-control"
         />
-        <button onClick={addTarea}>+</button>
-        <select onChange={handlerStatus} name="select">
+        <button onClick={addTarea} class="btn btn-primary mx-2">
+          +
+        </button>
+        <select onChange={handlerStatus} name="select" class="form-select w-50">
           <option value="todos">Todos</option>
           <option value="realizados">Realizados</option>
           <option value="por hacer">Por Hacer</option>

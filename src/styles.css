@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 .App {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  font-family: sans-serif;
-  text-align: center;
+  align-items: center;
+}
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 126, 253, 1) 100%
+  );
 }
